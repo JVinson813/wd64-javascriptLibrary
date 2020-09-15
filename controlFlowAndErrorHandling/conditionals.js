@@ -217,3 +217,30 @@ switch(instructor) {
     default:
         console.log(`Sorry, I can't find what ${instructor} teaches at this time.`)
 }
+
+//! Challenge 2: Take Home Challenge
+/*  
+Create a switch statement that takes in a value (number) that represents a grade.  If it is True, console log that they are passing with the correct letter grade.
+*   A: 89-100
+*   B: 79-88
+*   C: 66-78
+*   D: 59-65
+*   F: 0-59
+*/
+
+let grade = 75
+
+switch(true){
+    case 91 :
+    case 95 :
+    case 100 :
+        console.log(`Josh rec'd an A in the class passing with a ${grade}!`);
+        break;
+    case 82 :
+    case 85 :
+        console.log(`Josh rec'd a B in the class passing with a ${grade}!`);
+        break;
+    case(grade < 78) :
+        console.log(`Josh screwed up and did horrible with a ${grade}`);
+
+}

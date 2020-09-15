@@ -59,3 +59,30 @@
  };
 
  anon();
+
+ //? Parameters
+ // Allow us to accept information already declared.
+
+ function parameterFunc(num){
+     console.log(num);
+ }
+
+ parameterFunc(2);
+ parameterFunc(9);
+
+ let returnedVal = 5;
+ parameterFunc(returnedVal);
+
+ let firstName = "Jane";
+ let lastName = "Doe";
+
+ function greeting(first, last){
+     console.log(`hi, ${first}! Welcome back!`);
+     console.log(`This is the first paramter: ${first}`);
+     console.log(`This is the last paramter: ${last}`);
+ }
+// Think of "first" and "last" as positions within the parameter
+ greeting(firstName);
+ greeting(lastName);
+
+ 
