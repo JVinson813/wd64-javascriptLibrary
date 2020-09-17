@@ -23,5 +23,6 @@ r **= 2; // r * r
 console.log(r);
 
 //REMAINDER
-r %= 1;
+let r = 5
+r %= 2;
 console.log(r);

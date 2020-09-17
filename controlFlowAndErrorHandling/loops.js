@@ -117,9 +117,9 @@ console.log(fullName);
 */
 
 let indexArr = ['spot 1', 2, true, 'four'];
-
 for(pos of indexArr){
     console.log(pos);
+
 }
 
 /*
