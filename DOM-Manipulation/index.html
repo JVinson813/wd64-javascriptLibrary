@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- All of our HTML code will go here -->
+    <h1>Hello World</h1>
+    <p id="testParagraph">sample text</p>
+
+    <p class="sampleClass">This paragraph has a class of 'sampleclass'</p>
+
+    <button id="clickThisButton">I want to be clicked</button>
+
+    <label for="nameInput">Enter Your Name:</label>
+    <input type="text" id="nameInput" placeholder="John Smith" />
+
+    <p>Welcome!</p>
+    <p>No name has been entered</p>
+
+
+   
+    <!--------------------- All JS code goes here ---------------------------> 
+    
+    <script type="text/javascript">
+
+    document.getElementById('testParagraph').style.color = 'red';
+
+    document.querySelectorAll('p.sampleClass')[0].innerHTML = "<span>I am a whole new element!</span>";
+
+    document.getElementById('clickThisButton').addEventListener('click', (details) => {
+        details.target.style.backgroundColor = 'red';
+    });
+
+    document.getElementById('nameInput').addEventListener('keyup', event => {
+        if (event.target.value === '') {
+           document.getElementsByTagName('p')[3].innerText = `No name has been entered`; 
+        } else {
+            document.getElementsByTagName('p')[3].innerText = `Everyone please welcome ${event.target.value} to the stage.`;
+        }
+        
+    });
+    </script>
+</body>
+</html>

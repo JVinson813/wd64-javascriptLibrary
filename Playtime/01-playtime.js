@@ -43,3 +43,10 @@ function whatDoesItDo(color) {
 }; 
 
 console.log(whatDoesItDo());
+
+
+let firstName = 'Josh';
+let lastName = 'Vinson';
+
+Function greeting(firstName, lastName)
+greeting()

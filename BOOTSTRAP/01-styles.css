@@ -1,0 +1,12 @@
+.jumbotron {
+    background-image: url('01-assets/photo-1542744094-3a31f272c490.jpg');
+    color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+footer {
+    margin: 2em;
+    padding: .5em;
+    height: 10vh;
+}

@@ -77,12 +77,20 @@
  let lastName = "Doe";
 
  function greeting(first, last){
-     console.log(`hi, ${first}! Welcome back!`);
-     console.log(`This is the first paramter: ${first}`);
-     console.log(`This is the last paramter: ${last}`);
+    //  console.log(`hi, ${first}! Welcome back!`);
+    //  console.log(`This is the first paramter: ${first}`);
+    //  console.log(`This is the last paramter: ${last}`);
  }
 // Think of "first" and "last" as positions within the parameter
  greeting(firstName);
  greeting(lastName);
 
  
+
+let firstName = 'Josh';
+let lastName = 'Vinson';
+
+Function greeting(firstName, lastName)
+greeting()
+
+    

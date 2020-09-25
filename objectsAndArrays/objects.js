@@ -68,7 +68,8 @@ console.log(Object.keys(spaceJam.toonSquad)); // String of Keys
 
 console.log(Object.keys(spaceJam.toonSquad.tDevil)); // String of the index numbers of that string value
 
-console.log(Object.values(spaceJam.toonSquad));
+console.log(Object.values(spaceJam.toonSquad));       bird: 'Tweety',
+ 
 
 //? Object Bracket Notation
 /*
