@@ -39,13 +39,14 @@ function fetchResults(e) {
     pageNumber + // pg data
     '&q=' + // query? aka search
     searchTerm.value; //3 creates versatile/changeable query sting; study ?, &, and &q = when possible! .... Value is whatever is typed in the box (built in term, does not need defined)
-    //console.log(url); // 4 just logs string to see it
+    console.log(url); // 4 just logs string to see it
 
     if(startDate.value !== '') {  //if start date does not equal empty date range, then it creates/adds to our url string to fetch our results
         //setting a limit on our results
         console.log(startDate.value)
       url += '&begin_date=' + startDate.value;
     };
+  
   
     if(endDate.value !== '') {
       url += '&end_date=' + endDate.value;
